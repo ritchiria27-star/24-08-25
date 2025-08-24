@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24-08-25</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="floating-hearts" id="floatingHearts"></div>
+    <div class="petals" id="petalsContainer"></div>
+    
+    
+    <div class="container">
+        <div class="progress-bar">
+            <div class="progress" id="progressBar"></div>
+        </div>
+
+         <!-- Page 1 -->
+        <div class="step" id="step1">
+            <h1>Happy 17th Birthday, Anon!</h1>
+            <p>You're finally 17 :'D time flies so fast talaga mygahh!! Anyways I used a template for this coding and did some tweaking (Obvious talaga na gi cram ko lang ito XD I've been quite busy these days talaga. I originally plan on giving you another drawing I made pero I already did that last year so ito nalang ang ginawa ko :) Although, I'm not familiar with Java Script yet so bear with me :'></p>
+            <button class="btn" onclick="nextStep()">Click Me!</button>
+        </div>
+
+       <!-- Page 2 -->
+        <div class="step" id="step2">
+            <h2>Dear Anon,</h2>
+            <p>We've known each other since 2022, so its been almost 4 years noh? Siguro it might seem really small but for me its already a long time. You were 13 while I was 12, back then parang mga bata pa talaga tayo XD I remember nga pinagmumura mo pa ako tapos sabay sorry later haha, I remember rin we would frequently play CODM like every Friday, Saturday, and Sunday night to play tournament together. Medjo surprised ako na hindi ka nagsawa sakin lalo na sa BR kasi nagpa-carry lang ako pero I'm glad pa rin na you still chose to play with me :)</p>
+            <button class="btn" onclick="nextStep()">Continue</button>
+        </div>
+
+        <!-- Page 3 -->
+        <div class="step" id="step3">
+            <h2>Looking back,<span id="displayName"></span></h2>
+            <p>We were basically just spending our time together chatting and playing different games XD Although, you played a really important part in my life, we became close and we moved from chatting in Discord to Messenger. That change also made me open my really strict rule of not sharing personal socials to online friends haha (DW I'm still being careful :V) Anyways that change of communicating is what really made us become more closer as friends, I'm actually shock that we made it this far :)</p>
+            <button class="btn" onclick="nextStep()">Continue</button>
+        </div>
+
+        <!-- Page 4 -->
+        <div class="step" id="step4">
+            <h2>My Special Message!</h2>
+            <div class="photo-frame">
+                <img src="photo.jpg">
+				            </div>
+            <button class="btn" onclick="nextStep()">Continue</button>
+        </div>
+
+        <!-- Page 5 -->
+        <div class="step" id="step5">
+            <h2>Times We Played Together</h2>
+            <p>The more we grew, the more we became more distant. We don't play as much as before anymore and we don't talk as frequently as before either. But the memories we made playing together lingers <3</p>
+            <div class="memory-container">
+                <div class="polaroid">
+                    <img src="photo3.jpg">
+                </div>
+                <div class="polaroid">
+                    <img src="photo2.jpg">
+                </div>
+               
+            </div>
+            <button class="btn" onclick="nextStep()">Continue</button>
+        </div>
+
+        <!-- Page 6 -->
+        <div class="step" id="step6">
+            <h1>Happy Birthday, <span id="finalName">Anon</span>!</h1>
+        
+            <p>May your day be filled with endless joy, sweet laughter, and all the love your heart can hold. Being your friend over the years is one of my greatest sources of joy and happiness. I personally learnt many things from you and you have positively affected my life in various ways, even in ways that you have never thought of yourself. I wish you a good health, wealth, and mental state <3 I could have made this much longer but that will be for your next birthday.</p>
+        
+            <div class="signature">- Yours truly, Ria💖</div>
+        
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
